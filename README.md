@@ -41,27 +41,33 @@ Short exploration of the big questions posed in the format [Visual Analytics in 
 
 ## Why, Who, What, When, Where, How
 According to Hohnman et. al the *Embedding Projector* paper already covers:
-* Why: Interpretability & Explainability - You can interpret and explain embeddings of any kind
-* Who: Model Users
-* What: Individual Computational Units - The tool can downproject with PCA and TSNE
-* What: Neurons in High-dimensional Space - Embeddings
-* What: Aggregated Information - You can aggregate multiple embeddings and compare them
-* When: After Training
-* Where: NIPS Conference
-* How: Dimensionality Reduction & Scatter Plots - PCA and TSN-E
-* How: Instance-based Analysis & Exploration - Exploring similiar
+
+Question | Criterion | Explanation
+--- | --- | ---
+Why | Interpretability & Explainability | You can interpret and explain embeddings of any kind
+Who | Model Users | Data Scientists
+What | Individual Computational Units | The tool can downproject with PCA and TSNE
+What | Neurons in High-dimensional Space | Embeddings
+What | Aggregated Information | You can aggregate multiple embeddings and compare them
+When | After Training |
+Where | NIPS Conference |
+How | Dimensionality Reduction & Scatter Plots | PCA and TSN-E
+How | Instance-based Analysis & Exploration | Exploring similiar
 
 ## Contributions
 
 In addition to the stated factors, this adds the explainability approaches:
-* Why: Comparing & Selecting Models - This allows you to plug in other encoders like LSTMs, other BERT's etc. to compare them easily
-* Why: Education: It's an easy showcase of git, BERT embedding-extraction, visualization
-* Why: Education: It's meant to compare student exercises and find plagiarism
-* Who: Model Developers & Builders as the students in this course can compare their approach to the other teams
-* Who: Model users: Teachers of any github classroom can just plug in their data and start
-* Who: Non-experts can just plug in their github classroom data, run it and get cool visualizations (given they manage the setup)
-* Where: JKU Linz, XAI Course
-* How: Interactive Experimentation: You can change parameters like stripping newlines/comments and see how that effects your embeddings 
+
+Question | Criterion | Explanation
+--- | --- | ---
+Why | Comparing & Selecting Models | This allows you to plug in other encoders like LSTMs, other BERT's etc. to compare them easily
+Why | Education | It's an easy showcase of git, BERT embedding-extraction, visualization
+Why | Education | It's meant to compare student exercises and find plagiarism
+Who | Model Developers & Builders | as the students in this course can compare their approach to the other teams
+Who | Model users | Teachers of any github classroom can just plug in their data and start
+Who | Non-experts | can just plug in their github classroom data, run it and get cool visualizations (given they manage the setup)
+Where | - | JKU Linz, XAI Course
+How | Interactive Experimentation | You can change parameters like stripping newlines/comments and see how that effects your embeddings
 
 ## Data
 
