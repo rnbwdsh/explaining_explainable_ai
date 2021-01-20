@@ -1,0 +1,11 @@
+{
+  "embeddings": [
+    {
+      "tensorName": "Explainable AI Exercises",
+      "tensorShape": [999, 999],
+      "tensorPath": "jku-icg-classroom-embedding.tsv",
+      "metadataPath": "jku-icg-classroom-names.tsv"
+    }
+  ],
+  "modelCheckpointPath": "datasets"
+}
